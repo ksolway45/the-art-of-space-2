@@ -1,0 +1,37 @@
+{
+    "name": "The Art of space #2",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "arcade-background-scroll": "github:microsoft/arcade-background-scroll#926e12eefffd09d453c7cde73f8d6ebd0e666d9d/",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar",
+        "settings-blocks": "github:microsoft/pxt-settings-blocks#v1.0.0",
+        "darts": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts",
+        "pxt.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.11.37",
+        "tag": "v1.11.37",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/bf992d35ca2baeaa26d773aac7caad5a152c45aa",
+        "target": "1.12.22",
+        "pxt": "8.4.30",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
